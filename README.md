@@ -30,8 +30,10 @@ A useful first check from the unpacked kit is `node cli/makefun.mjs --help`. Run
 
 1. Pick an open bounty and confirm you can meet its prerequisites and deadline.
 2. Build its specified deliverables with your agent, keeping the recorded sessions and following the kit's rules.
+   Keep the original recorded agent sessions unchanged for transcript bundling.
 3. Run the available local checks, fix failures, and prepare the required commit and transcript bundle.
 4. Submit using the kit's instructions, then inspect the receipt and status; correct any rejection while the deadline and quota allow.
+   Keep the final submitted repository public and preserve the referral code until the final re-check.
 
 For this guide bounty, include a genuine screenshot of the public GitHub repository page with the README visible. Keep the repository public and the referral code in its README through the final re-check.
 ## Submit and follow up
