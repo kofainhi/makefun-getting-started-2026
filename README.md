@@ -26,17 +26,14 @@ For a repository-based entry, commit the intended files and make the repository 
 
 A useful first check from the unpacked kit is `node cli/makefun.mjs --help`. Run commands from the kit directory and consult its instructions for flags specific to your competition. If a local check reports a missing file or a failed requirement, fix it in the entry and run the check again before bundling the final sessions.
 
-## A practical preflight
+## Minimal entry loop
 
-Before sending an entry, compare it with the bounty's checklist one item at a time:
+1. Pick an open bounty and confirm you can meet its prerequisites and deadline.
+2. Build its specified deliverables with your agent, keeping the recorded sessions and following the kit's rules.
+3. Run the available local checks, fix failures, and prepare the required commit and transcript bundle.
+4. Submit using the kit's instructions, then inspect the receipt and status; correct any rejection while the deadline and quota allow.
 
-1. Confirm that the account entering is the account connected to any required repository or wallet.
-2. Check the required filenames, formats and size limits, and ensure the submitted commit contains them.
-3. Run the kit's checks for that competition and resolve failures; keep the complete recorded agent sessions for its transcript bundle.
-4. Verify the deadline and remaining submission quota. Leave time to correct a rejection rather than waiting until the last minute.
-
-For this guide bounty specifically, the final entry also needs a genuine screenshot of the public GitHub repository page with the README visible. The repository must remain public and retain the referral code for the final re-check. Other bounties may ask for different evidence.
-
+For this guide bounty, include a genuine screenshot of the public GitHub repository page with the README visible. Keep the repository public and the referral code in its README through the final re-check.
 ## Submit and follow up
 
 Use the selected kit's submission instructions for the repository or other deliverables it accepts. Submit before the deadline, then check the entry status. If a check rejects the entry, read its reason and fix, correct the underlying issue, and submit again if the rules and quota permit. A commit pushed later does not automatically replace a snapshot already submitted.
