@@ -24,6 +24,8 @@ Work with your coding agent to produce the required deliverables. Keep the agent
 
 For a repository-based entry, commit the intended files and make the repository accessible as required by the bounty. Check that the commit contains the actual deliverables, not credentials or local build artifacts. Follow the kit's instructions to bundle the relevant sessions and any required run record.
 
+A useful first check from the unpacked kit is `node cli/makefun.mjs --help`. Run commands from the kit directory and consult its instructions for flags specific to your competition. If a local check reports a missing file or a failed requirement, fix it in the entry and run the check again before bundling the final sessions.
+
 ## A practical preflight
 
 Before sending an entry, compare it with the bounty's checklist one item at a time:
